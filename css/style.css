@@ -55,6 +55,17 @@ body{
   background-color: var(--base_color) !important;
 }
 
+.design_x{
+   position: absolute;
+   font-size: 400px;
+   font-weight: 900;
+   font-family: var(--header_font);
+   color: #ffffff;
+   -webkit-text-stroke: 5px #0000002c;
+   opacity: .5;
+   z-index: -100;
+}
+
 
 /* ******** common css end ******* */
 
@@ -76,7 +87,7 @@ body{
 
 .banner_content p{
   font-family: var(--regular_font);
-  color: var(--primary_color);
+
 }
 
 .banner_img{
@@ -128,9 +139,7 @@ body{
   border: 2px solid rgb(51, 50, 50);
 }
 
-.who_content .part_1{
-  border-right: 1px solid rgb(190, 184, 184);
-}
+
 
 /* Button outside-css START */
 
