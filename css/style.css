@@ -1,0 +1,308 @@
+/*........ font link start ...... */
+
+@import url('https://fonts.googleapis.com/css2?family=Cal+Sans&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+/*........ font link end ...... */
+
+/* ******** common css start ******* */
+
+a {
+  text-decoration: none !important;
+  display: inline-block;
+}
+
+ul,
+ol {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+:root {   
+  --header_font: "Cal Sans", sans-serif; 
+  --regular_font: "Ubuntu", sans-serif;
+  --primary_color: #121212;
+  /* --secondary_color: #FEFDF8; */
+  --tag_color: #ee2ad4;
+  --base_color: #f6f5f1;
+  --regular_font_color: #64645f;
+  --fff_white: #fff;
+  --000_black: #000;
+}
+
+.common_heading h2 {
+  font-size: 60px;
+  font-weight: 500;
+  font-family: var(--header_font);
+  color: var(--primary_color);
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+img {
+  max-width: 100% !important;
+}
+
+section {
+  overflow: hidden !important;
+}
+
+.container-fluid{
+  padding: 0 150px 0;
+}
+
+body{
+  background-color: var(--base_color) !important;
+}
+
+
+/* ******** common css end ******* */
+
+/* ,,,,,,,,, banner css start ,,,,,,,,*/
+
+
+.banner_content h1{
+
+  color: var(--primary_color);
+  font-family: var(--header_font);
+} 
+
+.banner_content h1 span{
+  font-size: calc(30px + 2vw);
+  font-weight: 700;
+  color: var(--regular_font_color);
+  font-family: var();
+} 
+
+.banner_content p{
+  font-family: var(--regular_font);
+  color: var(--primary_color);
+}
+
+.banner_img{
+  display: flex;
+}
+
+.banner_img img{
+  max-width: calc(150px + 10vw) !important;
+}
+
+/* .banner_img_1{
+ 
+  transform: translateY(30%);
+}
+
+.banner_img_2{
+
+  transform: translate(3px ,-10%);
+} */
+
+
+/* +++++++++ banner css end +++++++++*/
+
+/* ,,,,,,,,, who_we_are css start ,,,,,,,,*/
+
+
+.who_content h2{
+  font-family:var(--header_font);
+  color: var(--primary_color);
+}
+
+.who_content h2 span{
+  font-family:var(--header_font);
+  color: var(--regular_font_color);
+}
+
+.who_we_img{
+  width: calc(350px + 2vw);
+}
+
+.client{
+  width: fit-content;
+}
+
+.client img{
+  padding: 5px;
+  max-width: 60px !important;
+  border-radius: 50%;
+  border: 2px solid rgb(51, 50, 50);
+}
+
+.who_content .part_1{
+  border-right: 1px solid rgb(190, 184, 184);
+}
+
+/* Button outside-css START */
+
+.animated-button {
+	position: relative;
+	/* display: flex; */
+	align-items: center;
+	gap: 4px;
+	padding: 80px 40px;
+	border: 4px solid v;
+	border-color: transparent;
+	font-size: 16px;
+	background-color: inherit;
+	border-radius: 100px;
+	font-weight: 600;
+	color: var(--primary_color);
+	box-shadow: 0 0 0 2px var(--regular_font_color);
+	cursor: pointer;
+	overflow: hidden;
+	transition: all 0.6s cubic-bezier(0.23, 1, 0.32, 1);
+	width: 200px;
+}
+
+.animated-button svg {
+  position: absolute;
+  width: 24px;
+  fill: var(--primary_color);
+  z-index: 9;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .arr-1 {
+  right: 80px;
+   top: 70%;
+}
+
+.animated-button .arr-2 {
+  top: 40px;
+  left: -25%;
+ 
+
+}
+
+.animated-button .circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 20px;
+  height: 20px;
+  background-color: var(--primary_color);
+  border-radius: 50%;
+  opacity: 0;
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button .text {
+  position: relative;
+  z-index: 1;
+  transform: translateX(-12px);
+  transition: all 0.8s cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+.animated-button:hover {
+  box-shadow: 0 0 0 12px transparent;
+  color: var(--base_color);
+  border-radius: 50%;
+}
+
+.animated-button:hover .arr-1 {
+  right: -25%;
+}
+
+.animated-button:hover .arr-2 {
+  left: 80px;
+}
+
+.animated-button:hover .text {
+  transform: translateX(12px);
+}
+
+.animated-button:hover svg {
+  fill: var(--base_color);
+}
+
+.animated-button:active {
+  scale: 0.95;
+  box-shadow: 0 0 0 4px var(--regular_font_color);
+}
+
+.animated-button:hover .circle {
+  width: 220px;
+  height: 220px;
+  opacity: 1;
+}
+
+/* Button  outside-css END */
+
+/* +++++++++ who_we_are css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,  css start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++  css end +++++++++*/
+
+/* ,,,,,,,,,   responsive start ,,,,,,,,*/
+
+
+
+
+
+/* +++++++++   responsive end +++++++++*/
+
+/*  outside-css START */
+
+
+/*  outside-css END */
